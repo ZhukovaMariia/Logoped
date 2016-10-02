@@ -1,0 +1,316 @@
+#footer {
+border:3px outset #b5b7ba;
+background-color: #b5b7ba;
+text-align: center;
+}
+
+body {
+    background-image: url("../pictures/back5.jpg");
+   background-size: 100% 100%;
+    background-attachment:fixed;
+    background-repeat: repeat-y;
+}
+
+/* границы ячеек тела таблицы */
+.had td:first-child {
+    width: 30%;
+    background-image: url("../pictures/logo1.jpg");
+    background-size: 30% 50%;
+    background-repeat: no-repeat;
+    } 
+
+.had td:last-child {
+    width: 70%;
+    background-image: url("../pictures/had2.png") ;
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position: left;
+    } 
+
+
+.had
+{
+    
+    width: 100%;
+    height: 250px;
+  
+    padding: 10px;
+} 
+
+
+.menu
+{
+    
+    width: 100%;
+    height: 150px;
+    border: 4px solid rgba(61, 27, 245, 0.44);
+    padding: 30px;
+    margin-top: 75px;
+       margin-bottom: 30px;
+    border-spacing: 20px;
+    background-color: rgba(51, 148, 219, 0.78);
+} 
+
+div .menu {
+    list-style: none;
+   
+   
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(77, 65, 65);
+}
+
+.menu li a:hover{
+     color: brown;
+    font-weight: bold;
+ 
+}
+
+
+#nav li a img{
+    width: 60px;
+    height: 60px;
+   
+}  
+div #nav {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 10; /*убираем отступы*/
+  margin-top:0px; /*делаем отступ сверху*/
+  
+}
+
+#nav a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+   padding:0px 5px; /*добавляем отступ*/
+ 
+ }
+ 
+#nav a img:hover {
+  overflow:hidden;
+ width: 80px;
+ height: 80px;
+}
+
+#nav li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+ 
+}
+
+
+h2{
+    color: #0101b5;
+    font-family: monospace, Arial, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+.text {
+    
+    margin-top:0px; /*делаем отступ сверху*/
+    font-size: 20px;
+    text-align: left;
+    font-family: monospace, Arial, sans-serif;
+    background-color: rgba(93, 174, 185, 0.87);
+     border: 4px solid rgb(111, 155, 178);
+}
+
+.text_tips{
+     
+     font-size: 20px;
+    text-align: left;
+    font-family: monospace, Arial, sans-serif;
+    background-color: rgba(93, 174, 185, 0.87);
+     border: 4px solid rgb(111, 155, 178);
+}
+
+.text_tips p {
+    text-align: center;
+}
+
+.text_tips p:first-letter{
+    
+    font-family: Monotype Corsiva;
+	font-size: 200%;
+	color: #007371;
+    
+}
+
+.tips li:first-letter{
+    
+    font-family: Monotype Corsiva;
+	font-size: 200%;
+	color: #007371;
+    
+}
+
+.tips li{
+   
+list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 10; /* отступы*/
+  margin-top:0px; /*делаем отступ сверху*/
+}
+
+.tips{
+    
+    margin-top: 180px;
+}
+
+.leftimg
+{
+float:left;
+ margin: 4px 10px 2px 0px;
+ border:2px solid #CCC;
+ padding:6px;
+}
+
+h3
+{
+      color: #0101b5;
+    font-family: monospace, Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.logoped+kid img
+{
+    width: 20px;
+    height: 30px;
+    
+}
+
+/* Стили для скрытого выпадающего меню
+   #nav li > ul {
+        list-style: none; убираем маркеры списка
+        position:absolute;
+        top:80px;
+        display:none; 
+       
+    }
+
+ Делаем скрытую часть видимой
+  #nav  li:hover > ul {
+        display:block; 
+        width:250px;  Задаем ширину выпадающего меню  
+        padding: inherit;
+         
+    }
+
+ #nav li:hover > ul > li {
+        float:none; Убираем горизонтальное позиционирование
+   
+    }*/
+
+/*
+ .meny{
+    
+    list-style-type: none;
+     color: #8791de;
+     border: 2px groove #6461b7;
+     font-family: cursive , Verdana;
+     font-variant: small-caps;
+    font-size: 30px;
+     
+}
+
+
+h2 a{
+    color: #707070;
+    font-family: inherit, sans-serif;
+    font-style: normal;
+    font-size: 28px;
+}
+
+
+h4 {
+   font-family: inherit;
+    color: darkolivegreen;
+    font-size: 18px;
+}
+
+
+
+a{
+    text-decoration:none;
+    color: #000e58;
+    
+}
+
+#cursiv{
+    font-style: oblique;
+    color: brown;
+}
+
+p{
+    text-align: justify;
+    color: #382904;
+    font-style: oblique;
+    font-size: 24px;
+}
+
+#MyShop{
+    font-family: monospace;
+    color: crimson;
+    font-size: 38px;
+    
+    
+}
+
+ol{
+    color: #0e2615;
+    font-family: cursive;
+    font-style: normal;
+    font-size: 18px;
+    
+}
+
+#imdbig{
+    width: 300px;
+    height: 200px;
+    border-color: #7e5353;
+    border-style: solid ;
+    border-width: 8px;
+}
+
+img{
+    
+    border-color: #7e5353;
+    border-style: solid ;
+    border-width: 8px;
+    width: 150px;
+    height: 100px;
+}
+
+div a {
+    font-size: 20px;
+    font-family: fantasy;
+    color: coral;
+    
+}
+
+label
+{
+     color: #0e2615;
+    font-family: cursive;
+    font-style: normal;
+    font-size: 18px;
+}
+
+input{
+background-color: beige;
+   
+}
+
+textarea{
+    background-color: beige;
+}*/

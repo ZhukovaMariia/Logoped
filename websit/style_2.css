@@ -1,0 +1,152 @@
+#footer {
+border:3px outset #b5b7ba;
+background-color: #b5b7ba;
+text-align: center;
+}
+
+body {
+    background-image: url("../pictures/back4.jpg");
+   background-size: 100% 100%;
+    background-attachment:fixed;
+    background-repeat: repeat-y;
+}
+
+/* границы ячеек тела таблицы */
+.had td:first-child {
+    width: 30%;
+    background-image: url("../pictures/logo1.jpg");
+    background-size: 30% 50%;
+    background-repeat: no-repeat;
+    } 
+
+.had td:last-child {
+    width: 70%;
+    background-image: url("../pictures/had2.png") ;
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position: left;
+    } 
+
+
+.had
+{
+    
+    width: 100%;
+    height: 250px;
+      padding: 10px;
+} 
+
+
+#nav li a img{
+    width: 60px;
+    height: 60px;
+     background-color: rgba(93, 174, 185, 0.87);
+     border: 4px solid rgb(111, 155, 178);
+   
+}  
+div #nav {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 10; /*убираем отступы*/
+  margin-top:0px; /*делаем отступ сверху*/
+     
+    
+  
+}
+
+#nav a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+   padding:0px 5px; /*добавляем отступ*/
+ 
+ }
+ 
+#nav a img:hover {
+  overflow:hidden;
+ width: 80px;
+ height: 80px;
+}
+
+#nav li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+ 
+}
+
+
+h2{
+    color: #0101b5;
+    font-family: monospace, Arial, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+.text {
+    
+    margin-top:0px; /*делаем отступ сверху*/
+    font-size: 20px;
+    text-align: left;
+    font-family: monospace, Arial, sans-serif;
+    background-color: rgba(93, 174, 185, 0.87);
+     border: 4px solid rgb(111, 155, 178);
+}
+
+
+
+
+h3
+{
+      color: #0101b5;
+    font-family: monospace, Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.otstup img
+{
+   float:left;
+ margin: 4px 10px 2px 0px;
+ border:2px solid #CCC;
+ padding:6px;
+    width: 250px;
+    height: 320px;
+    margin-top: 40px;
+}
+
+
+.otstup
+{
+    margin-top: 100px;
+    
+}
+#img
+{
+   float:left;
+    border: 0;
+     width: 300px;
+    height: 320px;
+    margin-top: 40px;
+}
+
+
+#table {
+    border-spacing:5px 15px;
+border: 8px solid #000;
+}
+
+
+td {
+    border: 1px solid #000;}
+
+input{
+     text-transform: capitalize;
+
+    color: brown;
+}
+
+
+    
+   

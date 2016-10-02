@@ -1,0 +1,95 @@
+#footer {
+border:3px outset #b5b7ba;
+background-color: #b5b7ba;
+text-align: center;
+}
+
+body {
+    background-image: url("../pictures/back4.jpg");
+   background-size: 100% 100%;
+    background-attachment:fixed;
+    background-repeat: repeat-y;
+}
+
+
+/* границы ячеек тела таблицы */
+.had td:first-child {
+    width: 30%;
+    background-image: url("../pictures/logo1.jpg");
+    background-size: 30% 50%;
+    background-repeat: no-repeat;
+    } 
+
+.had td:last-child {
+    width: 70%;
+    background-image: url("../pictures/had2.png") ;
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position: left;
+    } 
+
+
+.had
+{
+    
+    width: 100%;
+    height: 250px;
+  
+    padding: 10px;
+} 
+
+h1
+{
+     font-size: 30px;
+    text-align: center;
+    font-family: monospace, Arial, sans-serif;
+    background-color: rgba(93, 174, 185, 0.87);
+     border: 4px solid rgb(111, 155, 178);
+    color: #1d2a74;
+    
+}
+
+.meny li a img{
+    
+      width: 60px;
+    height: 60px;
+    
+}
+
+.meny li a img:hover {
+  overflow:hidden;
+ width: 80px;
+ height: 80px;
+}
+
+.meny li a{
+    
+     text-decoration: none; /*убираем подчеркивание текста ссылок*/
+   padding:0px 5px; /*добавляем отступ*/
+    
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace, Arial, sans-serif;
+color: #1d2a74;
+}
+
+.meny {
+list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 10; /* отступы*/
+  margin-top:0px; /*делаем отступ сверху*/
+}
+
+div{
+     
+    background-color: rgba(93, 174, 185, 0.87);
+     border: 4px solid rgb(111, 155, 178);
+    }
+
+h2{
+      color: #0101b5;
+    font-family: monospace, Arial, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+}
