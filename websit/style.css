@@ -1,7 +1,10 @@
 #footer {
+    height: 80px;
 border:3px outset #b5b7ba;
-background-color: #b5b7ba;
-text-align: center;
+background-image: url("../pictures/back7.jpg");
+     
+text-align: right;
+  
 }
 
 body {
@@ -11,42 +14,45 @@ body {
     background-repeat: repeat-y;
 }
 
-/* границы ячеек тела таблицы */
-.had td:first-child {
-    width: 30%;
-    background-image: url("../pictures/logo1.jpg");
-    background-size: 30% 50%;
-    background-repeat: no-repeat;
-    } 
-
-.had td:last-child {
-    width: 70%;
-    background-image: url("../pictures/had2.png") ;
-    background-size: 50% 90%;
-    background-repeat: no-repeat;
-    background-position: left;
-    } 
-
-
-.had
-{
+#heder{
     
-    width: 100%;
-    height: 250px;
+    width: 1200px;
+    height: auto;
+    
+}
+
+
+#logo1 {
+    float: left;
+    width: 80px;
+   height: 80px;
+ padding-left: 40px;
+    } 
+
+#title {
   
-    padding: 10px;
-} 
+    width: 350px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 250px;
+  
+    } 
 
 
+#conteiner{
+    
+    width: 1000px;
+    padding-left: 150px;
+    
+}
 .menu
 {
     
-    width: 100%;
-    height: 150px;
+   
     border: 4px solid rgba(61, 27, 245, 0.44);
     padding: 30px;
-    margin-top: 75px;
-       margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     border-spacing: 20px;
     background-color: rgba(51, 148, 219, 0.78);
 } 
@@ -76,28 +82,30 @@ div .menu {
     height: 60px;
    
 }  
+
 div #nav {
-  list-style: none; /*убираем маркеры списка*/
-  margin: 0; /*убираем отступы*/
-  padding-left: 10; /*убираем отступы*/
+  list-style: none;
+ 
+  padding-right: 10; /* отступы*/
   margin-top:0px; /*делаем отступ сверху*/
   
 }
 
 #nav a {
-  text-decoration: none; /*убираем подчеркивание текста ссылок*/
-   padding:0px 5px; /*добавляем отступ*/
+  text-decoration: none;/*убираем подчеркивание текста ссылок*/
+  padding: 5px;
  
  }
  
 #nav a img:hover {
+    
   overflow:hidden;
  width: 80px;
  height: 80px;
 }
 
 #nav li {
-  float:left; /*Размещаем список горизонтально для реализации меню*/
+  float:right; /*Размещаем список горизонтально для реализации меню*/
  
 }
 

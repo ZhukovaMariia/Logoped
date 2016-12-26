@@ -1,7 +1,9 @@
 #footer {
+height: 80px;
 border:3px outset #b5b7ba;
-background-color: #b5b7ba;
-text-align: center;
+background-image: url("../pictures/back7.jpg");
+     
+text-align: right;
 }
 
 body {
@@ -11,32 +13,27 @@ body {
     background-repeat: repeat-y;
 }
 
-
-/* границы ячеек тела таблицы */
-.had td:first-child {
-    width: 30%;
-    background-image: url("../pictures/logo1.jpg");
-    background-size: 30% 50%;
-    background-repeat: no-repeat;
-    } 
-
-.had td:last-child {
-    width: 70%;
-    background-image: url("../pictures/had2.png") ;
-    background-size: 50% 90%;
-    background-repeat: no-repeat;
-    background-position: left;
-    } 
-
-
-.had
-{
+#heder{
     
-    width: 100%;
-    height: 250px;
-  
-    padding: 10px;
-} 
+    width: auto;
+    height: 80px;
+    
+}
+
+
+
+#conteiner{
+    
+    width: 1000px;
+    padding-left: 150px;
+    
+}
+
+#logo1 {
+    float: left;
+    width: 80px;
+   height: 80px;
+    } 
 
 h1
 {
@@ -44,10 +41,16 @@ h1
     text-align: center;
     font-family: monospace, Arial, sans-serif;
     background-color: rgba(93, 174, 185, 0.87);
-     border: 4px solid rgb(111, 155, 178);
-    color: #1d2a74;
+    height: 80px;
+     color: #1d2a74;
     
 }
+
+#logo1 {
+    float: left;
+    width: 80px;
+   height: 80px;
+    } 
 
 .meny li a img{
     
@@ -66,30 +69,19 @@ h1
     
      text-decoration: none; /*убираем подчеркивание текста ссылок*/
    padding:0px 5px; /*добавляем отступ*/
-    
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     font-family: monospace, Arial, sans-serif;
 color: #1d2a74;
 }
 
 .meny {
-list-style: none; /*убираем маркеры списка*/
-  margin: 0; /*убираем отступы*/
-  padding-left: 10; /* отступы*/
-  margin-top:0px; /*делаем отступ сверху*/
-}
-
-div{
-     
+    border: 4px solid rgb(111, 155, 178);
     background-color: rgba(93, 174, 185, 0.87);
-     border: 4px solid rgb(111, 155, 178);
-    }
+list-style: none; /*убираем маркеры списка*/
 
-h2{
-      color: #0101b5;
-    font-family: monospace, Arial, sans-serif;
-    font-style: normal;
-    font-size: 30px;
-    text-align: left;
+  padding-left: 10; /* отступы*/
+  margin-top:20px; /*делаем отступ сверху*/
 }
+
+

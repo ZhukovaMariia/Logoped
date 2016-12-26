@@ -1,7 +1,9 @@
 #footer {
+height: 80px;
 border:3px outset #b5b7ba;
-background-color: #b5b7ba;
-text-align: center;
+background-image: url("../pictures/back7.jpg");
+     
+text-align: right;
 }
 
 body {
@@ -11,30 +13,35 @@ body {
     background-repeat: repeat-y;
 }
 
-/* границы ячеек тела таблицы */
-.had td:first-child {
-    width: 30%;
-    background-image: url("../pictures/logo1.jpg");
-    background-size: 30% 50%;
-    background-repeat: no-repeat;
-    } 
+body p{
+    
+    width: auto;
+    height: 60px;
+}
 
-.had td:last-child {
-    width: 70%;
-    background-image: url("../pictures/had2.png") ;
-    background-size: 50% 90%;
-    background-repeat: no-repeat;
-    background-position: left;
-    } 
+#conteiner{
+    
+    width: 1000px;
+    padding-left: 150px;
+    
+}
 
-
-.had
+body #text
 {
     
-    width: 100%;
-    height: 250px;
-      padding: 10px;
-} 
+   padding-top: 100px;
+   
+}
+#logo1 {
+
+    float: left;
+    width: 80px;
+   height: 80px;
+   
+    
+    } 
+
+
 
 
 #nav li a img{
@@ -43,11 +50,12 @@ body {
      background-color: rgba(93, 174, 185, 0.87);
      border: 4px solid rgb(111, 155, 178);
    
-}  
+} 
+
 div #nav {
   list-style: none; /*убираем маркеры списка*/
   margin: 0; /*убираем отступы*/
-  padding-left: 10; /*убираем отступы*/
+  padding-right: 180px; 
   margin-top:0px; /*делаем отступ сверху*/
      
     
@@ -61,13 +69,14 @@ div #nav {
  }
  
 #nav a img:hover {
+    
   overflow:hidden;
  width: 80px;
  height: 80px;
 }
 
 #nav li {
-  float:left; /*Размещаем список горизонтально для реализации меню*/
+  float:right; /*Размещаем список горизонтально для реализации меню*/
  
 }
 
@@ -85,7 +94,7 @@ h2{
 
 .text {
     
-    margin-top:0px; /*делаем отступ сверху*/
+    margin-top:40px; /*делаем отступ сверху*/
     font-size: 20px;
     text-align: left;
     font-family: monospace, Arial, sans-serif;
@@ -105,23 +114,19 @@ h3
     text-align: center;
 }
 
-.otstup img
+.text img
 {
    float:left;
  margin: 4px 10px 2px 0px;
  border:2px solid #CCC;
- padding:6px;
+
     width: 250px;
     height: 320px;
     margin-top: 40px;
 }
 
 
-.otstup
-{
-    margin-top: 100px;
-    
-}
+
 #img
 {
    float:left;
@@ -132,14 +137,6 @@ h3
 }
 
 
-#table {
-    border-spacing:5px 15px;
-border: 8px solid #000;
-}
-
-
-td {
-    border: 1px solid #000;}
 
 input{
      text-transform: capitalize;
@@ -147,6 +144,21 @@ input{
     color: brown;
 }
 
-
+/*не работает пришлось в html
+table {
     
+    border: 5px #111;
+    background-color: #3a54e5;
+    float: inherit;
+    text-align: center;
+}
+    
+td{
+
+ border: 1px #111;
+    background-color: #3a54e5;
+    float: inherit;
+    text-align: center;*/
+
+}
    
